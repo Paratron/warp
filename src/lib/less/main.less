@@ -1,0 +1,95 @@
+a, input, button {
+    outline: none;
+}
+
+html, body{
+    height: auto;
+}
+
+.serverControl {
+    text-align: center;
+}
+
+.artwork{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.version{
+    font-size: 11px;
+    margin-bottom: 50px;
+}
+
+.mdo-disabled {
+    pointer-events: none;
+}
+
+.btnBrowse, .btnHistory {
+    background-image: linear-gradient(to top, #6f3a00, #ba5400);
+    text-shadow: 0 -1px #6f3400;
+
+    -webkit-box-shadow: 1px 1px rgba(51, 51, 51, 0.50), inset 0 1px #d44c00;
+
+    &:hover {
+        background: #ba4300;
+    }
+}
+
+.btnBrowse {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    padding-right: 5px;
+}
+
+.btnHistory {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+    padding-left: 2px;
+    text-indent: 5px;
+    position: relative;
+
+    &:before{
+        content: "";
+        background: #a5a5a5;
+        display: block;
+        height: 20px;
+        width: 1px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -10px;
+    }
+}
+
+.btnStart {
+    background-image: linear-gradient(to top, #396f00, #6d9f00);
+    text-shadow: 0 -1px #396f00;
+
+    -webkit-box-shadow: 1px 1px rgba(51, 51, 51, 0.49), inset 0 1px #84c000;
+
+    &:hover {
+        background: #6d9f00;
+    }
+}
+
+.btnStop {
+    width: 184px;
+    background-image: linear-gradient(to top, #6f0001, #9f0200);
+    text-shadow: 0 -1px #6f0000;
+
+    -webkit-box-shadow: 1px 1px rgba(51, 51, 51, 0.49), inset 0 1px #c00005;
+
+    &:hover {
+        background: #9f0100;
+    }
+}
+
+.lblStatus{
+    margin-top: 20px;
+}

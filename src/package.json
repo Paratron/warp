@@ -1,0 +1,20 @@
+{
+    "name": "Warp",
+    "main": "index.html",
+    "description": "A lightweight HTTP server and assisting app for HTML5 game development with Phaser.",
+    "version": "1",
+
+    "window": {
+        "title": "Warp",
+        "icon": "lib/img/warp-icon.png",
+        "toolbar": false,
+        "frame": true,
+        "width": 600,
+        "height": 400,
+        "position": "mouse",
+        "min_width": 600,
+        "min_height": 400,
+        "max_width": 600,
+        "max_height": 400
+    }
+}

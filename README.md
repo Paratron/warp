@@ -1,6 +1,6 @@
 Warp
 ====
-The Warp server project aims to create a lightweight HTTP server app that allows you to develop HTML5 canvas games based on the Phaser engine on your local machine more easily.
+The Warp server project aims to create a lightweight HTTP server app that allows you to develop HTML5 canvas games based on the [Phaser engine](https://github.com/photonstorm/phaser) on your local machine more easily.
 
 The server should run with nearly zero config out of the box - you simply pick a folder that contains a index.html file and hit the start button - Warp does the rest.
 

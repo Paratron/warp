@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="lib/css/modo-0.13-full.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="lib/css/darkspot.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="lib/css/main.css" type="text/css" rel="stylesheet" media="screen">
+    <title>Warp</title>
+</head>
+<body unselectable="on" style="user-select: none;" onselectstart="return false;">
+<script>
+    window.gui = require('nw.gui');
+    window.nodeRequire = window.require;
+    window.require = undefined;
+</script>
+<script src="lib/js/jquery-1.9.1.min.js"></script>
+<script src="lib/js/underscore-min.js"></script>
+<script src="lib/js/backbone-min.js"></script>
+<script src="lib/js/q.min.js"></script>
+<script src="lib/js/modo-0.13-full.js"></script>
+<script src="lib/js/require.js" data-main="app/main"></script>
+</body>
+</html>
