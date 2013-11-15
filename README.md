@@ -7,6 +7,8 @@ The server should run with nearly zero config out of the box - you simply pick a
 At a later point in the project, debugging and controlling functionalities would be added.
 
 
+![A screenshot of warp 1 on windows](http://d.pr/i/9yGV+)
+
 Project Roadmap
 ---------------
 
