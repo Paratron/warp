@@ -39,7 +39,13 @@ run the following command:
 
     npm install grunt grunt-contrib-compress grunt-contrib-watch --safe-dev
 
-This will install `grunt` into the project directory which is needed to build the app. Run this command now:
+This will install `grunt` into the project directory which is needed to build the app. 
+
+Install the Grunt CLI tool globally by running this command,(sudo or Administrator privilages may be required):
+
+    npm install -g grunt-cli
+
+Run this command now:
 
     grunt
 
